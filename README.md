@@ -1,16 +1,38 @@
-# todo_app
+# Notes App
 
-todo app for daily tasks
+A todo app for daily tasks wit local storage using sqflite
 
-## Getting Started
+## Tools 
+### i used this tools to build this simple todo app 
+<ul>
+  <li>state management : cubit </li>
+  <li>database : sqflite </li>
+  <li>flutter basic widgets for ui </li>
+  <li>intl package from pub dev to deal with time and date </li>
+</ul>
 
-This project is a starting point for a Flutter application.
+## Home
+this is the home page if you open the app anytime, you will find all your notes here
+<p>
+  <img src="assets/one.jpg" width="350" title="hover text">
+</p>
 
-A few resources to get you started if this is your first Flutter project:
+## Add New Notes
+in this page you can see your current notes and add new note.
+press the floting action button after finishing the required info to add a task,
+once you add a task it's saved in the database
+<p>
+  <img src="assets/add task.jpg" width="350" title="hover text">
+</p>
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## Check Done Notes
+Here you can find all the notes your marked done after finishing them, just to get back to them anytime
+<p>
+  <img src="assets/done_tasks.jpg" width="350" title="hover text">
+</p>
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## See Archived Notes
+Here you can find all the notes you put on the archive, maybe you want to some of them later
+<p>
+  <img src="assets/arc.jpg" width="350" title="hover text">
+</p>
